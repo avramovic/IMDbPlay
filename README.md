@@ -14,18 +14,27 @@ cd ~
 git clone git@github.com:avramovic/IMDbPlay.git
 ```
 
+1. Alternatively, download ZIP from GitHub (Code > Download ZIP) and unzip to the same location
 2. In Chrome, open <a href="chrome://extensions">chrome://extensions</a>
-3. Click on "Load Unpacked" and navigate to ~/IMDbPlay
+3. Enable "Developer mode on the right side"
+
+<img src="images/dev-mode.png" width="50%" />
+
+4. Click on "Load Unpacked" and navigate to ~/IMDbPlay
+
+<img src="images/load-unpacked.png" width="50%" />
+
 
 ## Updating
 
-1. Check for updates
+1. Check for updates using git
 
 ```bash
 cd ~/IMDbPlay
 git pull
 ```
 
+1. Alternatively, just download the ZIP file again and unzip to the same location
 2. If it says "already up to date" you can stop, there are no updates
 3. In Chrome, open <a href="chrome://extensions">chrome://extensions</a>
 4. Find IMDbPlay and click on the Reload (🔄) icon
@@ -34,6 +43,9 @@ git pull
 
 - Navigate to any movie or TV show IMDb page. A "play" icon (▶️) should appear after the movie/TV show title.
 - Click it to play in an overlay (click) or in a new tab (ctrl+click, or cmd+click on Mac)
+
+<img src="images/play-movie.png" width="100%" />
+
 - That's it! 😉🎬🍿🎦
 
 ## Contributing
