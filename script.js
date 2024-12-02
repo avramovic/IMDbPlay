@@ -11,7 +11,7 @@ const observer = new MutationObserver(() => {
       const pathSegments = window.location.pathname.split('/').filter(segment => segment);
       let imdb_id = pathSegments[1];
       let media_type = document.querySelector('meta[property="og:type"]')?.content;
-      let base_url = 'https://vidsrc.xyz/embed/';
+      let base_url = 'https://vidsrc.xyz/embed';
 
       let video_url = base_url + '/movie/' + imdb_id;
       if (media_type === 'video.tv_show') {
