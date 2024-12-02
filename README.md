@@ -2,7 +2,7 @@
 
 IMDbPlay is a Google Chrome extension to play movies and TV shows directly from their IMDb pages.
 
-Due to the nature of this extension it won't be published via the Google Chrome extension store. However, you can load it in development 
+Due to the nature of this extension it won't be published via the Google Chrome extension store. However, you can load it in developer 
 mode to see how it works. 
 
 ## Installation
@@ -16,7 +16,7 @@ git clone git@github.com:avramovic/IMDbPlay.git
 
 1. Alternatively, download ZIP from GitHub (Code > Download ZIP) and unzip to the same location
 2. In Chrome, open <a href="chrome://extensions">chrome://extensions</a>
-3. Enable "Developer mode on the right side"
+3. Enable "Developer mode" on the right side
 
 <img src="images/dev-mode.png" width="50%" />
 
