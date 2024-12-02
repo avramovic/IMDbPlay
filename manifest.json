@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "IMDbPlay",
+    "version": "1.0",
+    "description": "Play movies and TV shows directly from IMDb",
+    "host_permissions": [
+        "https://www.imdb.com/title/tt*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.imdb.com/title/tt*"],
+            "js": ["script.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "about.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "icons/icon-16.png",
+        "32": "icons/icon-32.png",
+        "48": "icons/icon-48.jpeg",
+        "64": "icons/icon-64.jpeg",
+        "128": "icons/icon-128.jpeg",
+        "196": "icons/icon-196.jpeg"
+    }
+}
+
