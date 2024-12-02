@@ -1,6 +1,5 @@
 const observer = new MutationObserver(() => {
   const pageTitle = document.querySelector("h1");
-  console.log(pageTitle);
   if (pageTitle && !pageTitle.querySelector('.play-icon')) {
     const playIcon = document.createElement("span");
     playIcon.className = "play-icon"; // Add a class to avoid duplicates
@@ -64,6 +63,13 @@ function createLightbox(iframeSrc) {
   // Close lightbox when clicking outside iframe
   lightbox.addEventListener('click', (event) => {
     if (event.target === lightbox) {
+      lightbox.remove();
+    }
+  });
+
+  // Close lightbox when ESC is pressed
+  document.addEventListener('keyup', function (event) {
+    if (event.key === "Escape") {
       lightbox.remove();
     }
   });
