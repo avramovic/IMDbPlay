@@ -60,7 +60,7 @@ Pull requests are welcome. For major changes, please open an issue first  to dis
 ## TODO
 
 - Play individual TV show episodes from their IMDb pages
-- Play TV show series from their IMDb pages 
+- Play TV show seasons from their IMDb pages 
 
 ## License
 
