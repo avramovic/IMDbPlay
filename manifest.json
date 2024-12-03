@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "IMDbPlay",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Play movies and TV shows directly from IMDb",
     "host_permissions": [
         "https://www.imdb.com/title/tt*"
