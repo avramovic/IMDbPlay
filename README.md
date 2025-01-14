@@ -5,6 +5,10 @@ IMDbPlay is a Google Chrome extension to play movies and TV shows directly from 
 Due to the nature of this extension it won't be published via the Google Chrome extension store. However, you can load it in developer 
 mode to see how it works. 
 
+# New! Tampermonkey userscript
+
+You can now use IMDbPlay via Tampermonkey and other similar plugins. Install [Tampermonkey](https://www.tampermonkey.net/), then [install IMDbPlay](https://github.com/avramovic/IMDbPlay/raw/master/IMDbPlay.user.js)
+
 ## Installation
 
 1. Clone this repository in ~/IMDbPlay
