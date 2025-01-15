@@ -7,7 +7,7 @@ mode to see how it works.
 
 # New! Tampermonkey userscript
 
-You can now use IMDbPlay via Tampermonkey and other similar plugins. Install [Tampermonkey](https://www.tampermonkey.net/), then [install IMDbPlay](https://github.com/avramovic/IMDbPlay/raw/master/IMDbPlay.user.js)
+You can now use IMDbPlay via Tampermonkey and other similar extensions. Install [Tampermonkey](https://www.tampermonkey.net/), then [install IMDbPlay](https://github.com/avramovic/IMDbPlay/raw/master/IMDbPlay.user.js).
 
 ## Installation
 
