@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IMDbPlay
 // @namespace    https://avramovic.info/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Play movies directly from IMDb (using VidSrc)
 // @author       Nemanja Avramovic
 // @match        https://www.imdb.com/title/tt*
@@ -28,7 +28,7 @@
 
         let video_url = base_url + '/movie/' + imdb_id;
         if (media_type === 'video.tv_show') {
-          video_url = base_url + '/tv/' + imdb_id;
+          video_url = base_url + '/tv/' + imdb_id + '?autonext=1';
         }
 
         if (e.ctrlKey || e.metaKey) {
