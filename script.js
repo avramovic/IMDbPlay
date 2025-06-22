@@ -14,7 +14,7 @@ const observer = new MutationObserver(() => {
 
       let video_url = base_url + '/movie/' + imdb_id;
       if (media_type === 'video.tv_show') {
-        video_url = base_url + '/tv/' + imdb_id;
+        video_url = base_url + '/tv/' + imdb_id + '?autonext=1';
       }
 
       if (e.ctrlKey || e.metaKey) {
