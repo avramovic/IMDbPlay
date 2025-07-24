@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         IMDbPlay
 // @namespace    https://avramovic.info/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Play movies directly from IMDb (using VidSrc)
 // @author       Nemanja Avramovic
 // @match        https://www.imdb.com/title/tt*
+// @match        https://www.imdb.com/*/title/tt*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=imdb.com
 // @grant        none
 // ==/UserScript==
@@ -23,6 +24,9 @@
       playIcon.addEventListener("click", (e) => {
         const pathSegments = window.location.pathname.split('/').filter(segment => segment);
         let imdb_id = pathSegments[1];
+        if (!imdb_id.startsWith('tt')) {
+          imdb_id = pathSegments[2];
+        }
         let media_type = document.querySelector('meta[property="og:type"]')?.content;
         let base_url = 'https://proxy.garageband.rocks/embed';
 
